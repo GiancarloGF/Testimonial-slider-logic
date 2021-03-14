@@ -1,0 +1,119 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  width: 80vw;
+  height: 500px;
+  margin: auto;
+  margin-top: 55px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background: url("images/pattern-quotes.svg"), url("images/pattern-curve.svg"), url("images/pattern-bg.svg");
+  background-repeat: no-repeat;
+  background-position: 20% 30%, 0 380px, 95% 50%;
+  background-size: 100px 75px, 50% 25%, 45% 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+}
+
+.sub__container {
+  width: 75%;
+  height: 350px;
+  -ms-flex-item-align: center;
+      align-self: center;
+  position: relative;
+  z-index: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.container__text {
+  width: 70%;
+  height: 60%;
+  z-index: 99;
+  position: absolute;
+  left: 0;
+  top: 80px;
+  font-size: clamp(16px, 2.1vw, 28px);
+  color: #202046;
+  font-weight: 300;
+}
+
+.container__text .name {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.container__text .name .title {
+  color: #babacf;
+  font-weight: 300;
+}
+
+.container__img {
+  width: clamp(200px, 40vw, 300px);
+  height: 100%;
+  background: url("images/image-john.jpg");
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn {
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: -25px;
+  right: 35%;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.fas {
+  color: #babacf;
+  font-size: 24px;
+}
+
+.btns {
+  cursor: pointer;
+  border: none;
+  background: #fff;
+}
+
+.btns:disabled {
+  cursor: auto;
+}
+/*# sourceMappingURL=estilos.css.map */
